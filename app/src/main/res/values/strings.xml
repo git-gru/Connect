@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">Connect</string>
+    <string name="err_msg_email">Please Add Valid Email ID</string>
+    <string name="err_msg_password">Please Add Valid Password</string>
+
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+    <string name="repair">Repairs &amp; Maintenance</string>
+    <string name="health">Health &amp; Wellness</string>
+    <string name="fapp_id">147005085866936</string>
+    <string name="fb_login_protocol_scheme">fb147005085866936</string>
+    <string name="fbParamEmail">email</string>
+    <string name="fbParamPhone">phone</string>
+    <string name="google_maps_key">AIzaSyAK9avpwwjwMTwyvG6KNVATVyhwDrZQFrs</string>
+    <string name="country_prompt">Country</string>
+    <string name="service_prompt">Select Service</string>
+
+
+    <string name="service">Select Service</string>
+    <string name="acra_toast">Crash Report Send to Developer</string>
+
+    <string name="loginwith">Login With</string>
+    <string name="or">OR</string>
+    <string name="seller">SELLER</string>
+    <string name="buyer">BUYER</string>
+    <string name="signin">SIGN IN</string>
+    <string name="email">Email</string>
+
+
+    <string name="password">Password</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="showdialog">Signing in....</string>
+    <string name="emailrequired">Email is required!</string>
+    <string name="contactrequired">Contact No is required!</string>
+    <string name="lnamerequired">Last Name is required!</string>
+    <string name="fnamerequired">First Name is required!</string>
+    <string name="commentrequired">Comment is required!</string>
+    <string name="starrequired">Stars is required!</string>
+    <string name="pdialog">Please Wait...</string>
+    <string name="pwdrequired">Password is required!</string>
+    <string name="forgetpwd">Forgot Password?</string>
+    <string name="dhaveaccount">Don\'t have an account?</string>
+    <string name="signup"><u>SIGN UP TODAY</u></string>
+    <string name="oruse">OR USE</string>
+    <string name="fpwd">Forgot Password</string>
+    <string name="penteremail">Please enter your email below and we will send you a new password.</string>
+    <string name="eaddress">Email Address</string>
+    <string name="submit">Submit</string>
+    <string name="sup">SIGN UP</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="cnum">Contact No.</string>
+    <string name="upload">Upload Profile Picture</string>
+    <string name="selectg">Select Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="projects">Projects</string>
+    <string name="booknow">Book Now</string>
+    <string name="setservice">Set Services</string>
+    <string name="account">My Account</string>
+    <string name="loc">Location</string>
+    <string name="gen">Gender</string>
+    <string name="intesrests">Interests</string>
+    <string name="vservice">View Services</string>
+    <string name="subscribe">Subscripe</string>
+    <string name="logout">Log Out</string>
+    <string name="exit">Exit</string>
+    <string name="welcome">Welcome</string>
+    <string name="sservice">Search for a service...</string>
+    <string name="running">RUNNING</string>
+    <string name="completed">completed</string>
+    <string name="uploadjpic">Upload Job Picture</string>
+    <string name="jtitle">Job Title</string>
+    <string name="jdesc">Job Description</string>
+    <string name="adate">Appointment Date</string>
+    <string name="price">Price</string>
+    <string name="sservicess">Select Services:</string>
+    <string name="description">Description</string>
+    <string name="my_project">My Projects</string>
+    <string name="ylocation">Your Location area</string>منطقة الموقع
+    <string name="notify">Notification</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="editp">Edit Profile</string>
+    <string name="clange">Change Language</string>
+    <string name="selectloc">Select Your Location</string>
+    <string name="jtitlerequired">Job Title is required!</string>
+    <string name="jdescrequired">Job Description is required!</string>
+    <string name="prequired">Price is required!</string>
+    <string name="rrequired">Radius is required!</string>
+    <string name="adaterequired">Appointment Date is required!</string>
+    <string name="srequired">Service is required!</string>
+    <string name="lsucess">Login In Successfully</string>
+    <string name="epswdmatch">Email and password is not match</string>
+    <string name="countryrequired">Country is required!</string>
+    <string name="cityrequired">City is required!</string>
+    <string name="supsucess">Sign Up Successfully</string>
+    <string name="alreadyregister">You Already Registered</string>
+    <string name="addreviewsucess">Add Reviews Successfully</string>
+    <string name="review">Reviews</string>
+    <string name="pservice">Please Select Services...</string>
+    <string name="supdatesucess">Service Updated Successfully</string>
+    <string name="applysucess">Apply Job Sucessfully</string>
+    <string name="pr">Price: </string>
+    <string name="serv">Service: </string>
+    <string name="apdate">Appointment Date: </string>
+    <string name="pupdate">Profile Updated Successfully</string>
+    <string name="npsame">New Password &amp; Confirm Password required Same!</string>
+    <string name="oprequired">Old Password required!</string>
+    <string name="nprequired">New Password required!</string>
+    <string name="jbsucess">Job Book Successfully</string>
+    <string name="logoutsucess">Logout Successfully</string>
+    <string name="awardsucess">Job Awarded Successfully</string>
+    <string name="rejectsucess">Job Rejected Successfully</string>
+    <string name="notification">Notification</string>
+    <string name="onnotification">Are you sure you want to ON Notification?</string>
+    <string name="offnotification">Are you sure you want to OFF Notification?</string>
+    <string name="onsucess">Notification On Successfully</string>
+    <string name="offsucess">Notification Off Successfully</string>
+    <string name="aceeptsucess">Accept Job Successfully</string>
+    <string name="dservice">Delete Service..</string>
+    <string name="suredelete">Are you sure you want to Delete this Main Service?</string>
+    <string name="thissdelete">Are you sure you want to Delete this Service?</string>
+    <string name="dsucess">Your Service Delete Successfully</string>
+    <string name="managePlans">Manage Subscribed plans</string>
+
+    <string name="appliers">Applyers</string>
+
+
+    <string name="selectcate">Please select a catrgory:</string>
+    <string name="addtitle">Provide title to your advertise:</string>
+    <string name="adddesc">Add some description:</string>
+    <string name="selectedloc">Selected Location:</string>
+    <string name="uploadimage">Select an image to upload:</string>
+    <string name="userinterest">Please select categories of your interest.</string>
+    <string name="userint">My Interests</string>
+    <string name="dismyserv">Show my services</string>
+    <string name="manageserv">Manage services</string>
+    <string name="eorp">Email OR Phone</string>
+
+    <string name="no_notification">no notification</string>
+
+    <string name="adnew">New Advertise</string>
+    <string name="cancel">cancel</string>
+    <string name="adtitle">Advertise Title</string>
+    <string name="addesc">Advertise Description</string>
+    <string name="advimage">Advertise Image</string>
+
+    <string name="sellerdbid">Seller Bid</string>
+    <string name="confirmlogout">Are you sure you want to Log Out your account</string>
+    <string name="ssetservice">You have not set any services yet</string>
+    <string name="ssetservicenew">Set new service</string>
+    <string name="servicetimerstarted">Service timer set successfully</string>
+    <string name="tap_edit_photo">Tap to edit profile picture</string>
+    <string name="servicetimerstopped">Service stopped successfully</string>
+    <string name="advposted">Advertise posted by:</string>
+    <string name="subs_new">Subscribe new plan</string>
+    <string name="subs_man">Manage subscribed plans</string>
+    <string name="noreviews">No reviews...</string>
+
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/loc</item>
+        <item>@string/gen</item>
+        <item>@string/intesrests</item>
+        <item>@string/vservice</item>
+        <item>@string/logout</item>
+    </string-array>
+    <string-array name="my_account">
+        <item>@string/my_project</item>
+        <item>@string/notify</item>
+        <item>@string/change_pwd</item>
+        <item>@string/editp</item>
+        <item>@string/clange</item>
+        <item>@string/managePlans</item>
+        <item>@string/logout</item>
+    </string-array>
+
+    <string-array name="radius_arrays">
+        <item>Select Radius</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="service_arrays">
+        <item>Select Service</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+    </string-array>
+    <string name="title_activity_homenew">HomenewActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seller_set_advertise_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

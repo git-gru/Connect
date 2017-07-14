@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/lv_image_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="0dp"
+            android:textColor="#333333"
+            android:layout_weight="0.9"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=""
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/iv_map"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:layout_height="16dp"
+            android:src="@drawable/icon_map"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ly_rd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:checked="true"
+            android:clickable="false"
+            android:buttonTint="#333333"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clickable="false"
+            android:buttonTint="#333333"
+            android:text="@string/female" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:text="@string/subscribe"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:id="@+id/ly_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+   <!-- <CheckBox
+        android:text="Category 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="8dp"
+        android:checked="true"
+        android:textColor="#333333"
+        android:button="@drawable/checkbox_bg"
+        android:id="@+id/cbCate1" />
+
+    <CheckBox
+        android:text="Category 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#333333"
+        android:button="@drawable/checkbox_bg"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/cbCate2" />
+
+    <CheckBox
+        android:text="Category 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#333333"
+        android:button="@drawable/checkbox_bg"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/cbCate3" />
+
+    <CheckBox
+        android:text="Category 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:button="@drawable/checkbox_bg"
+        android:textColor="#333333"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/cbCate4" />
+
+    <CheckBox
+        android:text="Category 5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="#333333"
+        android:button="@drawable/checkbox_bg"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/cbCate5" />-->
+        </LinearLayout>
+
+
+</LinearLayout>

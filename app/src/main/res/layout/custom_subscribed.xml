@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="7dp"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:layout_margin="7dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/full_border">
+
+            <TextView
+                android:id="@+id/tv_package_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blackk"
+                android:padding="7dp"
+                android:textSize="12sp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/full_border">
+                <TextView
+                    android:id="@+id/tv_package_desc"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    />
+            </ScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/icon_right_red"
+                    android:layout_width="0dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"/>
+                <TextView
+                    android:id="@+id/tv_package_radius"
+                    android:layout_width="0dp"
+                    android:paddingLeft="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/icon_right_red"
+                    android:layout_width="0dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"/>
+                <TextView
+                    android:id="@+id/tv_package_minimum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:paddingLeft="7dp"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_package_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/full_border"
+                />
+            <TextView
+                android:id="@+id/tv_package_expire_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                />
+            <Button
+                android:id="@+id/btn_package_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:background="@color/colorPrimary"
+                android:text="Add Advertise"
+                android:textSize="12sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"/>
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

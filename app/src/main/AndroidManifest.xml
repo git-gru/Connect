@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jarrebnnee.connect"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <permission
+        android:name="com.jarrebnnee.connect.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.PERMISSION_GRANTED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- ".CrashApplicationClass" -->
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+        tools:replace="android:label">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".HomeActivity" />
+
+        <service android:name=".Service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".LocationUpdaterService" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fapp_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".SocialSignUpActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".SubCateActivity" />
+        <activity android:name=".ServiceListActivity" />
+        <activity android:name=".ServiceItemDetailActivity" />
+        <activity android:name=".ForgetPwdActivity" />
+        <activity android:name=".ProjectDetailActivity" />
+        <activity android:name=".WriteReviewFragment" />
+        <activity android:name=".ChagePasswordFragement" />
+        <activity android:name=".SellerServiceSetActivity" />
+        <activity android:name=".JobDetailNotificationActivity" />
+        <activity android:name=".SellerJobListActivity" />
+        <activity android:name=".SellerJobApplyActivity" />
+        <activity android:name=".SellerDetailNotificationActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ServiceMapActivity" />
+        <activity android:name=".SellerMapActivity" />
+        <activity android:name=".SellerSubscribeActivity" />
+        <activity android:name=".SellerAddAdvertise" />
+        <activity android:name=".SellerSubscribedPlans" />
+        <activity android:name=".SellerMapLocation" />
+        <activity android:name=".SellerAdvDetailsActivity" />
+        <activity android:name=".UserInterestsActivity" />
+        <activity android:name=".DisplayIncomingAdvertise" />
+        <activity android:name=".NotiSettingsActivity" />
+        <activity android:name=".FullImageActivity" />
+        <activity android:name=".SellerSetServicesActivity"></activity>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="fb1574132682659354" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

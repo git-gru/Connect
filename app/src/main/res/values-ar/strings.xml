@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">الاتصال</string>
+    <string name="err_msg_email">من فضلك ادخل عنوان بريدي صحيح</string>
+    <string name="err_msg_password">من فضلك ادخل كلمة سر صحيخه</string>
+
+    <string name="drawer_open">افتح</string>
+    <string name="drawer_close">اقفل</string>
+    <string name="repair">Repairs &amp; Maintenance</string>
+    <string name="health">Health &amp; Wellness</string>
+    <string name="fapp_id">147005085866936</string>
+    <string name="fb_login_protocol_scheme">fb147005085866936</string>
+    <string name="fbParamEmail">البريد الالكتروني</string>
+    <string name="fbParamPhone">تلفون</string>
+    <string name="google_maps_key">AIzaSyAK9avpwwjwMTwyvG6KNVATVyhwDrZQFrs</string>
+    <string name="country_prompt">البلد</string>
+    <string name="service_prompt">اختار الخدمه</string>
+
+
+    <string name="service">حدد الخدمة</string>
+    <string name="acra_toast">مشكله ارفعها الى مطور البرنامج</string>
+
+    <string name="loginwith">ادخل التطبيق ب</string>
+    <string name="or">او</string>
+    <string name="seller">بياع</string>
+    <string name="buyer">مشتري</string>
+    <string name="signin">سجل الدخول</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="show">اظهر</string>
+    <string name="hide">إخفاء</string>
+    <string name="showdialog">تسجيل الدخول....</string>
+    <string name="emailrequired">البريد الالكتروني مطلوب!</string>
+    <string name="pwdrequired">كلمة المرور مطلوبة!</string>
+    <string name="contactrequired">الاتصال لا مطلوب!</string>
+    <string name="lnamerequired">اسم العائلة مطلوب!</string>
+    <string name="fnamerequired">الإسم الأول مطلوب!</string>
+    <string name="commentrequired">التعليق مطلوب!</string>
+    <string name="starrequired">مطلوب نجوم!</string>
+    <string name="pdialog">أرجو الإنتظار...</string>
+    <string name="forgetpwd">نسيت كلمت الدخول</string>
+    <string name="dhaveaccount">ليس لديك حساب</string>
+    <string name="signup"><u>سجل اليوم</u></string>
+    <string name="oruse">او استخدم</string>
+    <string name="fpwd">هل نسيت كلمة المرور</string>
+    <string name="penteremail">ادخل بريدك الالكتروني وسوف نرسل لك كلمة السر</string>
+    <string name="eaddress">عنوان البريد الإلكتروني</string>
+    <string name="submit">قدم</string>
+    <string name="sup">تسجيل</string>
+    <string name="fname">الأسم الأول</string>
+    <string name="lname">الأسم الأخير</string>
+    <string name="cnum">رقم الأتصال</string>
+    <string name="upload">حمل الصوره</string>
+    <string name="selectg">اختار الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="home">الرئيسيه</string>
+    <string name="search">بحث</string>
+    <string name="projects">مشاريع</string>
+    <string name="booknow">سجل الأن</string>
+    <string name="setservice">تعيين الخدمات</string>
+    <string name="account">حسابي</string>
+    <string name="loc">الموقع</string>
+    <string name="gen">جنس</string>
+    <string name="intesrests">الاهتمامات</string>
+    <string name="vservice">انظر الخدمات</string>
+    <string name="subscribe">اشترك</string>
+    <string name="logout">الخروج</string>
+    <string name="exit">ىخرج</string>
+    <string name="welcome">اهلا بكم</string>
+    <string name="sservice">ابحث عن الخدمه</string>
+    <string name="running">تمرير</string>
+    <string name="completed">اكتمل</string>
+    <string name="uploadjpic">حمل صورة الطلب</string>
+    <string name="jtitle">مسمى الطلب</string>
+    <string name="jdesc">وصف الطلب</string>
+    <string name="adate">تاريخ الطلب</string>
+    <string name="price">السعر</string>
+    <string name="sservicess">اخاتار الخدمه</string>
+    <string name="description">المواصفات</string>
+    <string name="my_project">مشاريعي</string>
+    <string name="ylocation">منطقة الموقع</string>
+    <string name="notify">اشعارات</string>
+    <string name="change_pwd">تغير كلمة الدخول</string>
+    <string name="editp">تعديل البينات</string>
+    <string name="clange">تغير اللغه</string>
+    <string name="selectloc">حدد موقعك</string>
+    <string name="jtitlerequired">مطلوب المسمى الوظيفي!</string>
+    <string name="jdescrequired">مطلوب وصف الوظيفة!</string>
+    <string name="prequired">السعر مطلوب!</string>
+    <string name="rrequired">مطلوب نصف قطرها!</string>
+    <string name="adaterequired">تاريخ التعيين مطلوب!</string>
+    <string name="srequired">الخدمة مطلوبة!</string>
+    <string name="lsucess">تسجيل الدخول بنجاح</string>
+    <string name="epswdmatch">البريد الإلكتروني وكلمة المرور غير متطابقين</string>
+    <string name="countryrequired">البلد مطلوب!</string>
+    <string name="cityrequired">المدينة مطلوبة!</string>
+    <string name="supsucess">اشترك بنجاح</string>
+    <string name="alreadyregister">أنت مسجل بالفعل</string>
+    <string name="addreviewsucess">إضافة التعليقات بنجاح</string>
+    <string name="review">التعليقات</string>
+    <string name="pservice">الرجاء تحديد الخدمات ...</string>
+    <string name="supdatesucess">تم تحديث الخدمة بنجاح</string>
+    <string name="applysucess">تطبيق الوظيفة بنجاح</string>
+    <string name="pr">السعر: </string>
+    <string name="serv">الخدمات: </string>
+    <string name="apdate">تاريخ التعيين: </string>
+    <string name="pupdate">تم تحديث الملف الشخصي بنجاح</string>
+    <string name="npsame">كلمة المرور الجديدة وتأكيد كلمة المرور المطلوبة نفس!</string>
+    <string name="oprequired">كلمة المرور القديمة المطلوبة!</string>
+    <string name="nprequired">كلمة المرور الجديدة المطلوبة!</string>
+    <string name="jbsucess">سجل الوظائف بنجاح</string>
+    <string name="logoutsucess">تم الخروج بنجاح</string>
+    <string name="awardsucess">تم منح الوظيفة بنجاح</string>
+    <string name="rejectsucess">تم رفض الوظيفة بنجاح</string>
+    <string name="notification">الإخطار</string>
+    <string name="onnotification">هل تريد بالتأكيد إرسال الإشعارات؟</string>
+    <string name="offnotification">هل تريد بالتأكيد إيقاف الإشعار؟</string>
+    <string name="onsucess">إشعار بنجاح</string>
+    <string name="offsucess">تم إيقاف الإشعار بنجاح</string>
+    <string name="aceeptsucess">قبول الوظيفة بنجاح</string>
+    <string name="dservice">حذف الخدمة ..</string>
+    <string name="suredelete">هل تريد بالتأكيد حذف هذه الخدمة الرئيسية؟</string>
+    <string name="thissdelete">هل تريد بالتأكيد حذف هذه الخدمة؟</string>
+    <string name="dsucess">تم حذف الخدمة بنجاح</string>
+
+
+    <string name="no_notification">لا اشعارات</string>
+    <string name="confirmlogout">هل انت متاكد من الخروج</string>
+
+    <string name="selectcate">من فضلك اختار الفئه</string>
+    <string name="addtitle">ضع عنوان لاعلانك</string>
+    <string name="adddesc">اضف معلومات وصفيه</string>
+    <string name="selectedloc">اختر الموقع</string>
+    <string name="uploadimage">اختر صوره</string>
+    <string name="cancel">الغي</string>
+    <string name="manageserv">ادارة الاختيارات</string>
+    <string name="dismyserv">اعرض خدماتي</string>
+    <string name="eorp">بريد الكتروني او هاتف</string>
+    <string name="appliers">محدث البيانات</string>
+
+    <string name="sellerdbid">Seller Bid</string>
+
+    <string name="subs_new">اشترك جديد</string>
+    <string name="subs_man">إدارة الاشتراك</string>
+    <string name="managePlans">ادارة الاشتراكات</string>
+    <string name="userinterest">ادارة اشتراكات الفئات المختاره</string>
+    <string name="userint">اهتماماتي</string>
+    <string name="adnew">اعلان جديد</string>
+    <string name="adtitle">اسم الاعلان</string>
+    <string name="addesc">وصف الاعلان</string>
+    <string name="advimage">صورة الاعلان</string>
+    <string name="ssetservice"> لم تختار الخدمة بعد</string>
+    <string name="ssetservicenew">اختر خدمه جديده</string>
+    <string name="servicetimerstarted">تم تحديد التوقيت بنجاح</string>
+    <string name="tap_edit_photo">اضغط لتعديل الصوره</string>
+    <string name="servicetimerstopped">تم ايقاف الخدمه بنجاح</string>
+    <string name="advposted">تم وضع الاعلان بواسطة</string>
+    <string name="title_activity_seller_set_advertise_location">الخارطه</string>
+    <string name="title_activity_maps">الخارطه</string>
+    <string name="noreviews">لا تعليقات</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/loc</item>
+        <item>@string/gen</item>
+        <item>@string/intesrests</item>
+        <item>@string/vservice</item>
+        <item>@string/logout</item>
+    </string-array>
+    <string-array name="حسابي">
+        <item>@string/my_project</item>
+        <item>@string/notify</item>
+        <item>@string/change_pwd</item>
+        <item>@string/editp</item>
+        <item>@string/clange</item>
+        <item>@string/logout</item>
+    </string-array>
+    <string-array name="radius_arrays">
+        <item>Select Radius</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="service_arrays">
+        <item>Select Service</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+    </string-array>
+    <string name="title_activity_homenew">HomenewActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">اعدادات</string>
+</resources>
